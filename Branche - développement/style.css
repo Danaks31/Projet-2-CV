@@ -1,0 +1,117 @@
+/* Général ---------------------------------------------------------------------------------------*/
+.container
+{
+    width: 900px;
+}
+body
+{
+    font-family: 'Didact Gothic', sans-serif;
+    font-style: sem;
+    width: 900px;
+    margin: auto;
+}
+body h1
+{
+    font-family: 'Roboto Slab';
+    font-size: 1.9em;
+}
+/* Section bandeau  ---------------------------------------------------------------------------- */
+[class*="col-"]
+{
+   _border: black 1px solid;
+}   
+.bandeau
+{
+    background-color: #8BC34A;
+    height:auto;
+}
+.bandeau h2
+{
+    color: #8BC34A;
+    background-color: black;
+    text-align: center;
+}
+.photo
+{
+    text-align: center;
+}
+.contact
+{
+    margin-left: 20px;
+}
+.a_propos_contenus
+{
+    text-align: left;
+    margin-bottom: 120px;
+    padding-top: 100px;
+
+}
+.loisirs
+{
+    display: flex;
+    justify-content: space-around;
+}
+/* Section droite de la page --------------------------------------------------------------------- */
+.titre
+{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.titre h1
+{
+    text-transform: uppercase;
+}
+.titre span
+{
+    color:#8BC34A;    
+}
+.titre p
+{
+    font-size: 1.3em;
+}
+#déve
+{
+    text-decoration: underline  #8BC34A;
+    color: black;
+    
+}
+.formation h1
+{
+    margin-bottom: 25px;
+}
+.formation
+{
+    background: url(Img/Liseret.png) repeat-x bottom;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.formation i
+{
+    color: #8BC34A;
+}
+.experience h1
+{
+    margin-bottom: 20px;
+}
+.experience
+{
+    background: url(Img/Liseret.png) repeat-x bottom;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.experience i
+{
+    color: #8BC34A;
+}
+.recommandations h1
+{
+    margin-bottom: 20px;
+}
+.recommandations i
+{
+    color: #8BC34A;
+}
+section
+{
+    justify-content: space-around;
+}
