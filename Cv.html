@@ -3,6 +3,8 @@
 <head>
     <title></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen and (max-width: 760px)" href="media.css" type="text/css" />
+    <link rel="stylesheet" media="screen and (min-width: 760px)" href="media.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Roboto+Slab:600&display=swap" rel="stylesheet">
@@ -14,7 +16,11 @@
         <div class="row">
         <header class="col-12 col-md-4 bandeau"> <!-- Toute la partie gauche -->
             <div class="row">
-                <div class="col-12 col-sm-12 photo">  <!-- Bloc contact -->
+                <div class="col-12 col-sm-12 photo"> <!-- Bloc contact -->
+                    <div class="titre_petite_reolution">
+                        <h1>Vincent Valette</h1>
+                        <p>Développeur Web</p>
+                    </div>  
                     <img src="Img/photo.png" alt="photo_de_profile"></img>
                 </div>
             </div>        
@@ -54,8 +60,8 @@
             </div>   
         </header> <!-- Fin bandeau gauche -->
         <section class="col-12 col-md-8 titre">  <!-- Partie droite -->
-                <h1><span>Vincent</span> Valette</h1>
-                <p><span id="déve">Déve</span>loppeur Web</p>        
+                <div class="titre_grand_format"><h1><span>Vincent</span> Valette</h1>
+                <p><span id="déve">Déve</span>loppeur Web</p></div>        
         <section class="col-12 formation">    <!--     SECTION FORMATION    --> 
                 <h1><i class="fas fa-user-graduate"></i> FORMATION</h1></p>
                 <div class="row">
