@@ -86,7 +86,7 @@ li
 .formation
 {
     background: url(Img/Liseret.png) repeat-x bottom;
-    margin-bottom: 20px;
+    margin-top: 45px;
     padding-bottom: 20px;
 }
 .formation i
@@ -100,7 +100,7 @@ li
 .experience
 {
     background: url(Img/Liseret.png) repeat-x bottom;
-    margin-bottom: 20px;
+    margin-top: 45px;
     padding-bottom: 20px;
 }
 .experience i
@@ -114,5 +114,13 @@ li
 .recommandations i
 {
     color: #8BC34A;
+}
+.recommandations
+{
+    margin-top: 50px;
+}
+.row
+{
+    padding-top: 30px;
 }
 
