@@ -1,19 +1,18 @@
 /* Général ---------------------------------------------------------------------------------------*/
 .container
 {
-    width: 900px;
+    width: auto;
 }
 body
 {
     font-family: 'Didact Gothic', sans-serif;
-    font-style: sem;
-    width: 900px;
+    width: auto;
     margin: auto;
 }
 body h1
 {
     font-family: 'Roboto Slab';
-    font-size: 4.9em;
+    font-size: 1.9em;
 }
 /* Section bandeau  ---------------------------------------------------------------------------- */
 [class*="col-"]
@@ -41,17 +40,22 @@ body h1
 }
 .a_propos_contenus
 {
-    text-align: left;
-    margin-bottom: 120px;
-    padding-top: 100px;
+    text-align: justify;
+    margin-bottom: px;
+    padding-top: px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
-.loisirs
+.loisirs_contenus
 {
     display: flex;
-    justify-content: space-around;
 }
 /* Section droite de la page --------------------------------------------------------------------- */
+li
+{
+    list-style: none;
+}
 .titre
 {
     margin-bottom: 20px;
@@ -111,7 +115,4 @@ body h1
 {
     color: #8BC34A;
 }
-section
-{
-    justify-content: space-around;
-}
+
