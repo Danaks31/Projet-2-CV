@@ -34,6 +34,15 @@ body h1
 {
     text-align: center;
 }
+.photo img
+{
+    border: black solid 2px;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .contact
 {
     margin-left: 20px;
@@ -50,6 +59,15 @@ body h1
 .loisirs_contenus
 {
     display: flex;
+}
+.loisirs_contenus  i
+{
+    border: black 2px solid;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    padding-top: 10px;
 }
 /* Section droite de la page --------------------------------------------------------------------- */
 li
@@ -79,7 +97,7 @@ li
     color: black;
     
 }
-.formation h1
+.formation h2
 {
     margin-bottom: 25px;
     background: url(Img/Liseret.png) repeat-x bottom;
@@ -95,7 +113,7 @@ li
 {
     color: #8BC34A;
 }
-.experience h1
+.experience h2
 {
     margin-bottom: 20px;
     background: url(Img/Liseret.png) repeat-x bottom;
@@ -111,7 +129,7 @@ li
 {
     color: #8BC34A;
 }
-.recommandations h1
+.recommandations h2
 {
     margin-bottom: 20px;
     background: url(Img/Liseret.png) repeat-x bottom;
@@ -124,9 +142,5 @@ li
 .recommandations
 {
     margin-top: 50px;
-}
-.row
-{
-    padding-top: 30px;
 }
 

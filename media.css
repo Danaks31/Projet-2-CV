@@ -1,11 +1,27 @@
-@media screen and (max-width: 760px)
+@media screen and (max-width: 900px)
 {
     .titre_grand_format
     {
         display: none;
     }
+    .formation
+    {
+        margin-bottom: -60px;
+    }
+    .experience
+    {
+        margin-bottom: -60px;
+    }
+    h2
+    {
+        text-align: center;
+    }
+    .recommandations p
+    {
+        text-align: center;
+    }
 }
-@media screen and (min-width: 760px)
+@media screen and (min-width: 900px)
 {
         .titre_petite_reolution
         {
