@@ -82,10 +82,12 @@ li
 .formation h1
 {
     margin-bottom: 25px;
+    background: url(Img/Liseret.png) repeat-x bottom;
+    padding-bottom: 10px;
 }
 .formation
 {
-    background: url(Img/Liseret.png) repeat-x bottom;
+    
     margin-top: 45px;
     padding-bottom: 20px;
 }
@@ -96,10 +98,12 @@ li
 .experience h1
 {
     margin-bottom: 20px;
+    background: url(Img/Liseret.png) repeat-x bottom;
+    padding-bottom: 10px;
 }
 .experience
 {
-    background: url(Img/Liseret.png) repeat-x bottom;
+
     margin-top: 45px;
     padding-bottom: 20px;
 }
@@ -110,6 +114,8 @@ li
 .recommandations h1
 {
     margin-bottom: 20px;
+    background: url(Img/Liseret.png) repeat-x bottom;
+    padding-bottom: 10px;
 }
 .recommandations i
 {
