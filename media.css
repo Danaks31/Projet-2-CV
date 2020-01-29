@@ -20,11 +20,23 @@
     {
         text-align: center;
     }
+    .a_propos_contenus
+    {
+        margin-bottom: 50px;
+    }
+    .loisirs_contenus
+    {
+        padding-bottom: 30px;
+    }
 }
 @media screen and (min-width: 900px)
 {
-        .titre_petite_reolution
-        {
-            display: none;
-        }   
+    .titre_petite_reolution
+    {
+        display: none;
+    }
+    .a_propos_contenus
+    {
+        margin-bottom: 200px;
+    }   
 }
