@@ -50,10 +50,8 @@ body h1
 .a_propos_contenus
 {
     text-align: justify;
-    margin-bottom: px;
     margin-left: 30px;
-    margin-right: 30px;
-    
+    margin-right: 30px;   
     margin-top:20px;
 
 }
@@ -73,6 +71,10 @@ body h1
     
 }
 /* Section droite de la page --------------------------------------------------------------------- */
+header
+{
+    position: relative;
+}
 li
 {
     list-style: none;
@@ -82,23 +84,9 @@ li
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
-.titre h1
-{
-    text-transform: uppercase;
-}
-.titre span
-{
-    color:#8BC34A;    
-}
-.titre p
+.titre_bloc p
 {
     font-size: 1.3em;
-}
-#déve
-{
-    text-decoration: underline  #8BC34A;
-    color: black;
-    
 }
 .formation h2
 {
@@ -107,8 +95,7 @@ li
     padding-bottom: 10px;
 }
 .formation
-{
-    
+{   
     margin-top: 45px;
     padding-bottom: 20px;
 }

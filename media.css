@@ -1,8 +1,14 @@
 @media screen and (max-width: 900px)
 {
-    .titre_grand_format
+    .titre_bloc h1
     {
-        display: none;
+    color: black;
+    text-decoration: none;
+    }
+    #déve
+    {
+    text-decoration: underline  black;
+    color: black;
     }
     .formation
     {
@@ -31,12 +37,28 @@
 }
 @media screen and (min-width: 900px)
 {
-    .titre_petite_reolution
+    .titre_bloc
     {
-        display: none;
+    position: absolute;
+    width: 500px;
+    left: 300px;
+    text-transform: uppercase;       
+    }
+    .formation
+    {
+        padding-top: 80px;
+    }
+    #déve
+    {
+    text-decoration: underline  #8BC34A;
+    color: black;
+    }
+    .titre_bloc span
+    {
+    color:#8BC34A;    
     }
     .a_propos_contenus
     {
         margin-bottom: 200px;
-    }   
+    }
 }
