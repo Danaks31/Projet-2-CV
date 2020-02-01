@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px)
+@media screen and (max-width: 768px)
 {
     .titre_bloc h1
     {
@@ -35,13 +35,13 @@
         padding-bottom: 30px;
     }
 }
-@media screen and (min-width: 900px)
+@media screen and (min-width: 768px)
 {
     .titre_bloc
     {
     position: absolute;
     width: 500px;
-    left: 300px;
+    left: 200px;
     text-transform: uppercase;       
     }
     .formation
@@ -59,6 +59,6 @@
     }
     .a_propos_contenus
     {
-        margin-bottom: 200px;
+    margin-bottom: 200px;
     }
 }
